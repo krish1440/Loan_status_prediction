@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px; 
+    font-weight: bold;
+    color: #555;
+}
+
+input, select, button {
+    width: 100%; 
+    margin-top: 15px;
+    padding: 14px; 
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.prediction {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prediction.approved {
+    color: green;
+}
+
+.prediction.rejected {
+    color: red;
+}
+.footer a {
+    color: #0078D7;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #005BBB;
+}
+
+.footer img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+
