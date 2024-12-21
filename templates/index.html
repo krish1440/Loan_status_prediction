@@ -5,9 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loan Approval Prediction</title>
     <link rel="stylesheet" href="../static/styles.css"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome for Icons -->
+
+    <style>
+
+        .header-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f8f8;
+            padding: 15px 0;
+            margin-bottom: 20px; 
+            max-width: 1200px; 
+            margin-left: auto;
+            margin-right: auto; 
+        }
+        
+        .header-links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            margin: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-links a i {
+            margin-right: 8px;
+            font-size: 24px;
+        }
+        
+        .header-links a:hover {
+            color: #007bff;
+        }
+    </style>
+    
 
 </head>
 <body>
+    <div class="header-links">
+        <a href="https://github.com/krish1440" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://linkedin.com/in/krish-chaudhary-krc8252" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:krishchaudhary144@gmail.com">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/krish1440/loan_status_API" target="_blank">
+            <i class="fas fa-code"></i> Project Repo
+        </a>
+        <a href=""https://loan-status-api.onrender.com"" target="_blank">
+            <i class="fas fa-cogs"></i> API
+        </a>
+    </div>
     <div class="container">
         <h2>Loan Approval Prediction</h2>
         <form action="/predict" method="POST">
