@@ -9,35 +9,60 @@
 
     <style>
 
-        .header-links {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f8f8f8;
-            padding: 15px 0;
-            margin-bottom: 20px; 
-            max-width: 1200px; 
-            margin-left: auto;
-            margin-right: auto; 
-        }
-        
-        .header-links a {
-            text-decoration: none;
-            color: #333;
-            font-size: 20px;
-            margin: 0 20px;
-            display: flex;
-            align-items: center;
-        }
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-        .header-links a i {
-            margin-right: 8px;
-            font-size: 24px;
-        }
-        
-        .header-links a:hover {
-            color: #007bff;
-        }
+.header-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-links a i {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.header-links a:hover {
+    color: #007bff;
+}
+
+/* Mobile styles */
+
+@media only screen and (max-width: 768px) {
+    .header-links {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .header-links a {
+        font-size: 18px;
+        margin: 10px 10px;
+    }
+    .header-links a i {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header-links {
+        padding: 5px 0;
+    }
+    .header-links a {
+        font-size: 16px;
+    }
+}
     </style>
     
 
