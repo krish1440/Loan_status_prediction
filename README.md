@@ -9,7 +9,7 @@ A web application for predicting loan approval status using machine learning. Th
 ## 🚀 Live Demo
 
 - **Web App**: [Loan Status Prediction](https://loan-status-prediction-5fk2.onrender.com/)  
-- **API**: [Loan Status Prediction API](https://loan-status-prediction-5fk2.onrender.com/)
+- **API**: [Loan Status Prediction API](https://loan-status-api.onrender.com)
 
 ## 📌 Features
 
